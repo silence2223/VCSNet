@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "VCSNet": {
+      "enable_vcsm": true,
+      "enable_caat": true,
+      "enable_mbre": true
+    },
+    "Base": {
+      "enable_vcsm": false,
+      "enable_caat": false,
+      "enable_mbre": false
+    },
+    "VCSM": {
+      "enable_vcsm": true,
+      "enable_caat": false,
+      "enable_mbre": false
+    },
+    "CAAT": {
+      "enable_vcsm": false,
+      "enable_caat": true,
+      "enable_mbre": false
+    },
+    "VCSM+CAAT": {
+      "enable_vcsm": true,
+      "enable_caat": true,
+      "enable_mbre": false
+    }
+  }
+}

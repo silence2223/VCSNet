@@ -1,0 +1,8 @@
+# Install a compatible PyTorch/torchvision pair for your CUDA or CPU environment.
+# Reference training environment: torch 2.1.2+cu121 / torchvision 0.16.2+cu121.
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+scipy>=1.10
+Pillow>=9.0
+opencv-python>=4.8
